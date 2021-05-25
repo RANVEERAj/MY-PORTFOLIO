@@ -1,0 +1,55 @@
+ 
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+h1 {
+    color: rgb(79, 175, 231);
+}
+p,h2{
+    text-align: center;
+}
+.projects-and-me{
+    display: flex;
+    justify-content:space-around;
+    color: blanchedalmond;
+}
+.box{
+    border: solid;
+    border-color: rgb(36, 219, 210);
+    border-width:thick;
+    border-radius: 20px;
+    background-color: rgb(171, 206, 15);
+    width: 310px;
+    font-family: cursive;
+    height: 400px;
+    padding-left:30px;
+    color: rgb(75, 17, 17);
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    margin: left 10px;;
+    display :flex;
+    justify-content:center;
+    font-family: cursive;
+}
+.menu{
+   display: flex;
+   align-items:center;
+   justify-content: space-evenly;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.center { margin: auto;     
+         display: flex;
+         align-self: center;
+         justify-content: center;
+       }
